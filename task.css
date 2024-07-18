@@ -1,0 +1,105 @@
+body{
+    font-family: system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom,     #FFE4E1, #FFB6C1);
+}
+
+header{
+    background-color: #FF6F61;
+    padding: 1rem;
+    height: 30px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    color: rgb(14, 12, 12);
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(223, 223, 125), #FFB6C1);
+    height: 650px;
+}
+.herocontent{
+    width: 50%;
+    padding: 35px;
+}
+.herocontent h1{
+    margin: 0;
+    font-size: 3rem;
+}
+.herocontent p{
+    margin:  1rem 0;
+    font-size: 1.2rem;
+}
+.herocontent button{
+    padding: 0.5rem 1rem;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.heroimage{
+    width: 50%;
+ margin-right: 0;
+}
+.heroimage img{
+    width: 100%;
+    margin: 0 auto;
+    display: block; 
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right,rgb(223, 223, 125), #FFB6C1);
+    padding: 100px;
+}
+.galleryitem {
+    width: 40%;
+}
+.highlight {
+    border-color: #FF6F61;
+    justify-content: space-around;
+    padding: 50px;
+   
+}
+.highlight h2{
+    margin: 0;
+    font-size: 3rem;
+}
+.box{
+    align-items: center;
+    padding: 40px;
+}
+.highlightcontent{
+    background-color: #FF6F61;
+   
+}
+.highlight button{
+    padding: 0.1rem 1rem;
+    background-color: #FF6F61;
+    font-size: 1rem;
+    border: #FF6F61;
+}
+
+.box1{
+width: 50%;
+height: 600px;
+display: flex;
+} 
+
+
